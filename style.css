@@ -103,8 +103,12 @@ button{
 
   .wrapper-high-nav{
     display: flex;
-
   }
+
+  .wrapper-high-nav{
+    display: none;
+  }
+
   .wrapper-low-A{
     display: none;
     padding: 0px 30px 0px 0px;
@@ -113,6 +117,10 @@ button{
 
 @media screen and (min-width: 768px){
     
+    .wrapper-high-nav{
+        display: flex;
+    }
+        
     .wrapper-low{
         display: flex;
     }
